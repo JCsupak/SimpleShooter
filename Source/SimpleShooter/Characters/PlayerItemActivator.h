@@ -4,11 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
-#include "DrawDebugHelpers.h"
-#include "GameFramework/PlayerController.h"
-#include "PhysicsEngine/PhysicsHandleComponent.h"
 #include "PlayerItemActivator.generated.h"
 
+
+class UPhysicsHandleComponent;
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class SIMPLESHOOTER_API UPlayerItemActivator : public UActorComponent

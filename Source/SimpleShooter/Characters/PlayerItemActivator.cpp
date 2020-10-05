@@ -4,6 +4,9 @@
 #include "PlayerItemActivator.h"
 #include "SimpleShooter/Items/ItemAbility.h"
 #include "ShooterCharacter.h"
+#include "DrawDebugHelpers.h"
+#include "GameFramework/PlayerController.h"
+#include "PhysicsEngine/PhysicsHandleComponent.h"
 
 #define OUT
 
